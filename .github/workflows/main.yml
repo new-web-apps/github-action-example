@@ -13,4 +13,4 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         # script: whoami
-        script: git clone git@github.com:new-web-apps/github-action-example.git
+        script: git clone https://github.com/new-web-apps/github-action-example.git

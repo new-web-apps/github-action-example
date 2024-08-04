@@ -12,4 +12,5 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
-        script: whoami
+        # script: whoami
+        script: git clone https://github.com/new-web-apps/github-action-example.git

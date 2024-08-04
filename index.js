@@ -1,4 +1,4 @@
-import http from "http";
+const http = require('html');
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
